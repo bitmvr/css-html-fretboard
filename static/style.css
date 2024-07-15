@@ -1,0 +1,148 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/*
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: eee;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+.fretboard {
+    width: 325mm;
+    background-color: #333;
+    height: 250px;
+    margin: auto;
+    box-shadow: 5px 5px #000;
+}
+
+.nut {
+    background-color: #FFFFF0;
+    height: 250px;
+    width: 10px;
+    float: left;
+}
+
+.fret {
+    background-color: #c0c6c7;
+    height: inherit;
+    width: 2px;
+    position: absolute;
+    margin-left: 100px;
+}
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #3f3f3f;
+}
+
+.fretboard {
+    position: relative;
+    float:left;
+    /*width: 12.75in;*/ /*Not sure why this doens't work correctly?*/
+    width: 14.25in;
+    height: 2in;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
+    overflow: cover;
+}
+
+.nut {
+    position: relative;
+    float: left;
+    width: 0.20in;
+    height: 2in;
+    background: ivory;
+    border: 1px solid #c145;
+}
+
+.fret {
+    position: relative;
+    float: left;
+    width: 0.10in;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+.string_01 {
+    position:absolute;
+    top: 10%;
+    width: 14.25in;
+    height: 0.01in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.1in 2px;
+}
+
+.string_02 {
+    position:absolute;
+    top: 25%;
+    width: 14.25in;
+    height: 0.02in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.02in 0.02in;
+}
+
+.string_03 {
+    position:absolute;
+    top: 40%;
+    width: 14.25in;
+    height: 0.03in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.03in 0.03in;
+}
+
+.string_04 {
+    position:absolute;
+    top: 55%;
+    width: 14.25in;
+    height: 0.04in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.04in 0.04in;
+}
+
+.string_05 {
+    position:absolute;
+    top: 70%;
+    width: 14.25in;
+    height: 0.05in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.05in 0.05in;
+}
+
+.string_06 {
+    position:absolute;
+    top: 86%;
+    width: 14.25in;
+    height: 0.06in;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    box-shadow: 0.06in;
+}
+
