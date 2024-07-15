@@ -3,55 +3,37 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
-/*
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
   * {
     margin: 0;
   }
+
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    background-color: eee;
   }
+
   img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
   }
+
   input, button, textarea, select {
     font: inherit;
   }
+
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+  
   #root, #__next {
     isolation: isolate;
   }
 
-.fretboard {
-    width: 325mm;
-    background-color: #333;
-    height: 250px;
-    margin: auto;
-    box-shadow: 5px 5px #000;
-}
-
-.nut {
-    background-color: #FFFFF0;
-    height: 250px;
-    width: 10px;
-    float: left;
-}
-
-.fret {
-    background-color: #c0c6c7;
-    height: inherit;
-    width: 2px;
-    position: absolute;
-    margin-left: 100px;
-}
-*/
+/* Fretboard CSS */
 
 body {
     display: flex;
@@ -59,7 +41,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #3f3f3f;
+    background-color:darkslategrey;
 }
 
 .fretboard {
