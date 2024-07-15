@@ -44,10 +44,21 @@ body {
     background-color:darkslategrey;
 }
 
+
+/* Inside of the styling for fretboard, I'd like
+to have the width of the board (aka length) match 25.5"
+which is a common fretboard length. Since we only need the first
+12 frets, we should only need 12.75" in theory. Perhaps that is because
+that would be exactly middle of the 12th fret. I need to come up with 
+the forumla required to known how much space is between each fret so we
+can dynamically place dots. This may also allow for us to better identify
+how long the fretboard ought to be after.
+*/
+
 .fretboard {
     position: relative;
     float:left;
-    /*width: 12.75in;*/ /*Not sure why this doens't work correctly?*/
+    /*width: 12.75in;*/ 
     width: 14.25in;
     height: 2in;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
@@ -73,57 +84,56 @@ body {
     border-right: 1px solid #333;
 }
 
-.string_01 {
-    position:absolute;
+.string {
+  position:absolute;
+  background: linear-gradient(0deg, #ccc, #fff, #ccc);
+  box-shadow: 0.00in 2px;
+}
+
+.string_01 {  
     top: 10%;
     width: 14.25in;
     height: 0.01in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0.00in 2px;
 }
 
 .string_02 {
-    position:absolute;
     top: 25%;
     width: 14.25in;
     height: 0.02in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0px 2px;
 }
 
 .string_03 {
-    position:absolute;
     top: 40%;
     width: 14.25in;
     height: 0.03in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0.00in 2px;
 }
 
 .string_04 {
-    position:absolute;
     top: 55%;
     width: 14.25in;
     height: 0.04in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0.00in 2px;
 }
 
 .string_05 {
-    position:absolute;
     top: 70%;
     width: 14.25in;
     height: 0.05in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0.00in 2px;
 }
 
 .string_06 {
-    position:absolute;
     top: 86%;
     width: 14.25in;
     height: 0.06in;
-    background: linear-gradient(0deg, #ccc, #fff, #ccc);
-    box-shadow: 0.00in 2px;
+}
+
+.fret_marker_single{
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
 }
 
