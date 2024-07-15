@@ -86,8 +86,7 @@ body {
     float: left;
     width: 0.10in;
     height: 100%;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
+    background: linear-gradient(90deg, #ccc, #fff, #ccc);
     border-left: 1px solid #333;
     border-right: 1px solid #333;
 }
@@ -97,8 +96,8 @@ body {
     top: 10%;
     width: 14.25in;
     height: 0.01in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.1in 2px;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0.00in 2px;
 }
 
 .string_02 {
@@ -106,8 +105,8 @@ body {
     top: 25%;
     width: 14.25in;
     height: 0.02in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.02in 0.02in;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0px 2px;
 }
 
 .string_03 {
@@ -115,8 +114,8 @@ body {
     top: 40%;
     width: 14.25in;
     height: 0.03in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.03in 0.03in;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0.00in 2px;
 }
 
 .string_04 {
@@ -124,8 +123,8 @@ body {
     top: 55%;
     width: 14.25in;
     height: 0.04in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.04in 0.04in;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0.00in 2px;
 }
 
 .string_05 {
@@ -133,8 +132,8 @@ body {
     top: 70%;
     width: 14.25in;
     height: 0.05in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.05in 0.05in;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0.00in 2px;
 }
 
 .string_06 {
@@ -142,7 +141,7 @@ body {
     top: 86%;
     width: 14.25in;
     height: 0.06in;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 100%);
-    box-shadow: 0.06in;
+    background: linear-gradient(0deg, #ccc, #fff, #ccc);
+    box-shadow: 0.00in 2px;
 }
 
